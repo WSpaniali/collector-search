@@ -1,0 +1,3 @@
+elasticsearch:
+  connection:
+    address: ${elastic.server.address}
