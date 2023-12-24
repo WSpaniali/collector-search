@@ -1,3 +1,15 @@
 elasticsearch:
   connection:
     address: "localhost"
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+rabbit:
+  queue: card
+  exchange: card-ex
+  routing-key: card-rk

@@ -1,3 +1,15 @@
 elasticsearch:
   connection:
     address: ${elastic.server.address}
+
+spring:
+  rabbitmq:
+    host: ${rabbitmq.host}
+    port: ${rabbitmq.port}
+    username: ${rabbitmq.username}
+    password: ${rabbitmq.password}
+
+rabbit:
+  queue: ${rabbitmq.queue}
+  exchange: ${rabbitmq.exchange}
+  routing-key: ${rabbitmq.routing-key}
